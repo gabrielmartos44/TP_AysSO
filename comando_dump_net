@@ -1,0 +1,2 @@
+tcpdump
+Para realizar un dump de trafico de red: sudo tcpdump
