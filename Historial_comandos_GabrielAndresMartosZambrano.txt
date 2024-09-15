@@ -1,0 +1,136 @@
+pwd
+ls -l /root/
+ls -l
+cat /etc/fstab
+id
+cat /proc/cpuinfo 
+cat /etc/fstab
+grep mmx /proc/cpuinfo | tail -n1
+vagrant ssh
+ls -l /bin
+ls -l /usr/bin
+ls -l /usr/sbin
+ls -l /usr
+ls -l /var
+ls -l /var/logs
+ls -l /var/log
+ls -l /var/dev
+ls -l /dev
+ls -l /dev | greg sda
+ls -l /dev | greg video
+ls -l /dev | grep video
+ls -l /mnt
+ls -l /media
+man man
+man passwd
+man 5 passwd
+grep vagran /etc/passwd
+man ascii
+vagran halt
+vagrant halt
+logout
+exit
+do-release-upgrade
+pwd
+whoami
+cd /tmp
+cd
+ls -la
+ls -la | grep ssh
+ls -l .ssh/
+ssh
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -l .ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub
+ll
+cd repogit/
+ll
+git clone git@github.com:gabrielmartos44/TP_AysSO.git
+ll
+cd TP_AysSO
+LL
+ll
+echo "hola mundo"
+echo "hola mundo" > unarchivo
+ls -l
+cat unarchivo 
+git status
+git add .
+git status
+git commit -m "add: primer commit"
+git status
+git push
+man man
+man ascii
+man -k edit
+cd
+ls
+ll
+repogit
+cd repogit
+ll
+cd UTN-FRA_SO_onBording/
+greg $(whoami) /etc/passwd
+grep $(whoami) /etc/passwd
+sudo mandb -c
+echo "hola" > otro archivo
+cat otroarchivo
+cat otro
+rm otro
+ll
+cat teoria
+cd
+exit
+pwd
+ls -l
+cd repogit
+ls -l
+cd TP_AysSO/
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+ls -l
+ls -al
+grep <parametro> Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls -l
+git add
+git add .
+git commit -m "ADD: agregando 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add .
+git commit -m "feat: Añadiendo información de CPU”
+
+
+git commit -m "feat: Añadiendo información de CPU”
+git status
+git commit --amend -m "feat: Añadiendo información de CPU"
+git status
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | head -n 10
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t ":" -k7
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t ":" -k7 > lista_ordenada
+ls -l
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+echo "tcpdump" > comando_dump_net
+echo "Para realizar un dump de trafico de red: sudo tcpdump" >> comando_dump_net
+git add comando_dump_net
+git status
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat <<EOF >> README.md
+Alumno: gabriel andres martos zambrano
+division: 314
+turno: noche
+EOF
+
+cat README.md
+history -a
